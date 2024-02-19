@@ -1,2 +1,2 @@
 # typing
-https://ripon301252.github.io/typing/
+https://ripon301252.github.io/alphabet-clash/
