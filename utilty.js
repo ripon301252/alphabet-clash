@@ -96,13 +96,16 @@ document.addEventListener('keyup' , handlerKeyboardButtonPress);
 
 function setBackgroundColorById(elementId){
     const element = document.getElementById(elementId);
-    element.classList.add('bg-orange-600'); // keyboard button color
+    // element.classList.add('bg-orange-600'); // keyboard button color
+    element.classList.add('bg-[aqua]'); // keyboard button color
+    
 }
 
 
 function removeBackgroundColorById(elementId){
     const element = document.getElementById(elementId);
-    element.classList.remove('bg-orange-600');
+    // element.classList.remove('bg-orange-600');
+    element.classList.remove('bg-[aqua]');
 }
 
 function getTextElementValueById(elementId){
